@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MS_05-08-1669_ADI"
+		(property "Footprint" "AERO_Integrated_Circuits:LTC6820HMS#TRPBF"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
