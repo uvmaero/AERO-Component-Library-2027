@@ -1483,7 +1483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TG110-AE050N5LF:SOIC-16"
+		(property "Footprint" "AERO_Integrated_Circuits:TG110-AE050N5 - SOIC 16"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

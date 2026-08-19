@@ -1462,7 +1462,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -12.7351 14.0086 0)
+			(at -12.7 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Value" "TG110-AE050N5LF"
-			(at -12.7458 -17.8441 0)
+			(at -12.7 13.335 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
