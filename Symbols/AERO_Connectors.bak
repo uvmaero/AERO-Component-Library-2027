@@ -3371,7 +3371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AERO_Connectors:3350-4275-126"
 			(at 11.43 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
