@@ -1481,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0041B_8_MXM"
+		(property "Footprint" "AERO_Integrated_Circuits:MAX33054EASA+T"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1551,7 +1551,7 @@
 		(symbol "MAX33054EASA+T_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -18.415)
+					(xy 7.62 5.08) (xy 7.62 -21.59)
 				)
 				(stroke
 					(width 0.127)
@@ -1563,7 +1563,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -18.415) (xy 33.02 -18.415)
+					(xy 7.62 -21.59) (xy 33.02 -21.59)
 				)
 				(stroke
 					(width 0.127)
@@ -1587,7 +1587,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -18.415) (xy 33.02 5.08)
+					(xy 33.02 -21.59) (xy 33.02 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -1598,7 +1598,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -3.175 0)
+				(at 0 -3.81 0)
 				(length 7.62)
 				(name "TXD"
 					(effects
@@ -1616,7 +1616,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -16.51 0)
+				(at 0 -19.05 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1634,7 +1634,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 3.175 0)
+				(at 0 2.54 0)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1652,7 +1652,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.16 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "RXD"
 					(effects
@@ -1670,7 +1670,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 3.175 180)
+				(at 40.64 2.54 180)
 				(length 7.62)
 				(name "VL"
 					(effects
@@ -1688,7 +1688,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -12.065 180)
+				(at 40.64 -13.97 180)
 				(length 7.62)
 				(name "CANL"
 					(effects
@@ -1706,7 +1706,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -0.635 180)
+				(at 40.64 -1.27 180)
 				(length 7.62)
 				(name "CANH"
 					(effects
@@ -1724,7 +1724,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -16.51 180)
+				(at 40.64 -19.05 180)
 				(length 7.62)
 				(name "STBY"
 					(effects
