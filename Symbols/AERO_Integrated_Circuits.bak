@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" "AERO_Integrated_Circuits:TC4468COE713"
-			(at 0 0 0)
+			(at 15.748 14.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3886,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" "TC4468COE713"
-			(at 0 0 0)
+			(at 10.16 11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

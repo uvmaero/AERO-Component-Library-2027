@@ -3940,11 +3940,22 @@
 				)
 			)
 		)
-		(symbol "TC4468COE713_0_1"
+		(symbol "TC4468COE713_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 33.02 -22.86)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
-				(name ""
+				(name "1A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3962,7 +3973,7 @@
 			(pin unspecified line
 				(at 0 -2.54 0)
 				(length 7.62)
-				(name ""
+				(name "1B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3980,7 +3991,7 @@
 			(pin unspecified line
 				(at 0 -5.08 0)
 				(length 7.62)
-				(name ""
+				(name "2A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3998,7 +4009,7 @@
 			(pin unspecified line
 				(at 0 -7.62 0)
 				(length 7.62)
-				(name ""
+				(name "2B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4016,7 +4027,7 @@
 			(pin unspecified line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name ""
+				(name "3A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4034,7 +4045,7 @@
 			(pin unspecified line
 				(at 0 -12.7 0)
 				(length 7.62)
-				(name ""
+				(name "3B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4052,7 +4063,7 @@
 			(pin unspecified line
 				(at 0 -15.24 0)
 				(length 7.62)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4070,7 +4081,7 @@
 			(pin unspecified line
 				(at 0 -17.78 0)
 				(length 7.62)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4088,7 +4099,7 @@
 			(pin unspecified line
 				(at 40.64 -17.78 180)
 				(length 7.62)
-				(name ""
+				(name "4A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4106,7 +4117,7 @@
 			(pin unspecified line
 				(at 40.64 -15.24 180)
 				(length 7.62)
-				(name ""
+				(name "4B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4124,7 +4135,7 @@
 			(pin unspecified line
 				(at 40.64 -12.7 180)
 				(length 7.62)
-				(name ""
+				(name "4Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4142,7 +4153,7 @@
 			(pin unspecified line
 				(at 40.64 -10.16 180)
 				(length 7.62)
-				(name ""
+				(name "3Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4160,7 +4171,7 @@
 			(pin unspecified line
 				(at 40.64 -7.62 180)
 				(length 7.62)
-				(name ""
+				(name "2Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4178,7 +4189,7 @@
 			(pin unspecified line
 				(at 40.64 -5.08 180)
 				(length 7.62)
-				(name ""
+				(name "1Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4196,7 +4207,7 @@
 			(pin unspecified line
 				(at 40.64 -2.54 180)
 				(length 7.62)
-				(name ""
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4214,7 +4225,7 @@
 			(pin unspecified line
 				(at 40.64 0 180)
 				(length 7.62)
-				(name ""
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4227,19 +4238,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "TC4468COE713_1_1"
-			(rectangle
-				(start 7.62 5.08)
-				(end 33.02 -22.86)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
