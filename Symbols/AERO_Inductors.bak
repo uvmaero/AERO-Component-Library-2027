@@ -358,7 +358,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MSS1038-102_1"
+	(symbol "Vishay_IFSC_2020DE_01"
 		(extends "MSS1038-102")
 		(property "Reference" "L"
 			(at -1.27 0 90)
