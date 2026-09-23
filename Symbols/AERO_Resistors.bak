@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AERO_Resistors:MP925-15.0K-1%"
+		(property "Footprint" "AERO_Resistors:MP925-5.00K-1%"
 			(at 20.32 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
