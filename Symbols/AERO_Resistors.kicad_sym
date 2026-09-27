@@ -582,7 +582,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 0 -2.54 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -591,7 +591,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0402_xxxx_0.0625W_1%"
+		(property "Value" "R_0402"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -631,6 +631,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
@@ -780,7 +813,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_xxxx_xxW_xx%"
+		(property "Value" "R_0603"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -820,6 +853,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "100mW"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
@@ -969,7 +1035,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_xxxx_0.0625W_1%"
+		(property "Value" "R_0805"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1009,6 +1075,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "125mW"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
@@ -1158,7 +1257,7 @@
 				)
 			)
 		)
-		(property "Value" "R_1206_xxxx_0.25W_1%"
+		(property "Value" "R_1206"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,6 +1297,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "250mW"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
@@ -1347,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Value" "R_2512_xxxx_1W_1%"
+		(property "Value" "R_2512"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1387,6 +1519,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1W"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "2512"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
