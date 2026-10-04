@@ -1,0 +1,240 @@
+(footprint "Schurter 0031.8221"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "0031.8221")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at -9.906 -6.35 0)
+		(layer "F.SilkS")
+		(uuid "b961a036-f275-4094-a79d-5c6b2522e27a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Schurter 0031.8221"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c58d519-226f-41f4-8ae5-64babb89d6a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60b2092a-c302-4a9a-afc4-a8057058aba8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f06c485-c56d-4a05-a273-09b643bf3490")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -11.35 -5.4)
+		(end 11.35 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84089bf5-501f-4c8d-9903-80f1da600078")
+	)
+	(fp_line
+		(start -11.35 -3.5)
+		(end -11.35 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2b16f09-90f0-459e-ad27-434d04ce024f")
+	)
+	(fp_line
+		(start -11.35 5.4)
+		(end -11.35 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5af4defb-0f2f-4865-9661-e30a9f06b65b")
+	)
+	(fp_line
+		(start 11.35 -5.4)
+		(end 11.35 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7db22f86-585e-442f-967c-ed870db0e529")
+	)
+	(fp_line
+		(start 11.35 4)
+		(end 11.35 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb9cbb74-2196-46de-963b-8380f4592fc8")
+	)
+	(fp_line
+		(start 11.35 4)
+		(end 11.35 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c74d53b-4c1c-45f5-af3c-52eb1a91752f")
+	)
+	(fp_line
+		(start 11.35 5.4)
+		(end -11.35 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e258c71-d2ca-4fb4-9325-67ffeb7f5403")
+	)
+	(fp_line
+		(start -12.5 -6.4)
+		(end 12.5 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff2304e1-ad3e-4fd6-9f1b-fe4fadd0107c")
+	)
+	(fp_line
+		(start -12.5 6.4)
+		(end -12.5 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88ab020b-af2f-4a73-ad54-97b28a5854cc")
+	)
+	(fp_line
+		(start 12.5 -6.4)
+		(end 12.5 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "287f696a-3576-4e90-929a-24fd6a47ec3c")
+	)
+	(fp_line
+		(start 12.5 6.4)
+		(end -12.5 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4338a2e-16f9-4e3f-bac6-d19ec3d49bae")
+	)
+	(fp_line
+		(start -11.35 -5.4)
+		(end 11.35 -5.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a69c51d-a2f4-4ad7-abc2-183f25285b44")
+	)
+	(fp_line
+		(start -11.35 5.4)
+		(end -11.35 -5.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34862d6b-a04c-4d08-a9e3-26bb09476813")
+	)
+	(fp_line
+		(start 11.35 -5.4)
+		(end 11.35 5.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "030c4712-5e80-49dc-abdf-ee4993a375d2")
+	)
+	(fp_line
+		(start 11.35 5.4)
+		(end -11.35 5.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "289ca310-6df5-4b27-9388-fe4af894f14b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "55bb31aa-c9ae-4b98-bbc4-7e8bb7c4ba0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -8.5 0 90)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8902504e-53c6-464c-b66c-22f0fc90bc3f")
+	)
+	(pad "2" smd rect
+		(at 8.5 0 90)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f93a2905-f014-4388-9c27-90e749409f77")
+	)
+	(embedded_fonts no)
+	(model "${AERO_3D_MODELS}/Fuses/Schurter 0031.8821/0031.8221.stp"
+		(offset
+			(xyz -4.572 0 2.413)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
