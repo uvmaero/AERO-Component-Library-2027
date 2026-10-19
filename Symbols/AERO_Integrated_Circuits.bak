@@ -6044,14 +6044,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "NA555D"
+	(symbol "NA555DR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -10.16 21.59 0)
+			(at -11.43 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6061,8 +6061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NA555D"
-			(at -10.16 19.05 0)
+		(property "Value" "NA555DR"
+			(at -11.43 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6127,7 +6127,7 @@
 				)
 			)
 		)
-		(symbol "NA555D_0_0"
+		(symbol "NA555DR_0_0"
 			(pin power_in line
 				(at 0 -19.05 90)
 				(length 2.54)
@@ -6165,10 +6165,10 @@
 				)
 			)
 		)
-		(symbol "NA555D_0_1"
+		(symbol "NA555DR_0_1"
 			(rectangle
-				(start -10.16 17.78)
-				(end 10.16 -16.51)
+				(start -11.43 17.78)
+				(end 11.43 -16.51)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6178,9 +6178,9 @@
 				)
 			)
 		)
-		(symbol "NA555D_1_1"
+		(symbol "NA555DR_1_1"
 			(pin input line
-				(at 12.7 3.81 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "TRIG"
 					(effects
@@ -6198,7 +6198,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 0 0)
+				(at -13.97 0 0)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -6216,7 +6216,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -13.97 180)
+				(at 13.97 -13.97 180)
 				(length 2.54)
 				(name "~{RST}"
 					(effects
@@ -6234,7 +6234,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 13.97 -5.08 180)
 				(length 2.54)
 				(name "CONT"
 					(effects
@@ -6252,7 +6252,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 6.35 180)
+				(at 13.97 6.35 180)
 				(length 2.54)
 				(name "THRES"
 					(effects
@@ -6270,7 +6270,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 15.24 180)
+				(at 13.97 15.24 180)
 				(length 2.54)
 				(name "DISCH"
 					(effects
