@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-4_4.4x4.3mm_P2.54mm"
+		(property "Footprint" "AERO_Isolation:ASSR-5211-301E"
 			(at -5.08 -6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -571,7 +571,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -607,7 +607,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -7.62 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
