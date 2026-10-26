@@ -982,54 +982,6 @@
 			)
 		)
 		(symbol "LT8316EFE#TRPBF_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -60.96)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -60.96) (xy 44.45 -60.96)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 44.45 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 44.45 -60.96) (xy 44.45 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
 				(at 52.07 0 180)
 				(length 7.62)
@@ -1334,6 +1286,20 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LT8316EFE#TRPBF_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 44.45 -60.96)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
