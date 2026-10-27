@@ -28,8 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "AERO_Oscillators:ABM8AIG-12.000MHZ-12-2Z-T3"
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -39,8 +39,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://abracon.com/AIGcrystals/ABM8AIG.pdf"
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
