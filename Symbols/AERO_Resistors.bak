@@ -1479,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Value" "R_2512_xxxx_1W_1%"
+		(property "Value" "R_2512"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,6 +1519,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1W"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "2512"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
