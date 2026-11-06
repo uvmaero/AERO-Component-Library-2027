@@ -601,7 +601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 1.27 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
