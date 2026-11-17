@@ -3697,7 +3697,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 9.144 7.112 0)
+			(at 19.05 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3707,7 +3707,7 @@
 			)
 		)
 		(property "Value" "1054291114"
-			(at 9.398 4.064 0)
+			(at 19.304 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3716,8 +3716,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SD-105429-001_14_MOL"
-			(at 0.508 13.208 0)
+		(property "Footprint" "AERO_Connectors:1054291114"
+			(at -5.334 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3786,7 +3786,7 @@
 		(symbol "1054291114_1_1"
 			(polyline
 				(pts
-					(xy 5.08 1.27) (xy 5.08 -36.83)
+					(xy 5.08 2.54) (xy 5.08 -25.4)
 				)
 				(stroke
 					(width 0.127)
@@ -3798,7 +3798,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -36.83) (xy 12.7 -36.83)
+					(xy 5.08 -25.4) (xy 15.24 -25.4)
 				)
 				(stroke
 					(width 0.127)
@@ -3810,7 +3810,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 1.27) (xy 5.08 1.27)
+					(xy 15.24 2.54) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -3822,7 +3822,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -36.83) (xy 12.7 1.27)
+					(xy 15.24 -25.4) (xy 15.24 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -3833,7 +3833,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -1.27 0)
+				(at 0 0 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -3869,7 +3869,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -3887,7 +3887,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -8.89 0)
+				(at 0 -11.43 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -3905,7 +3905,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -11.43 0)
+				(at 0 -15.24 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -3923,7 +3923,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -13.97 0)
+				(at 0 -19.05 0)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -3941,7 +3941,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -16.51 0)
+				(at 0 -22.86 0)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -3959,7 +3959,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -19.05 0)
+				(at 20.32 0 180)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -3977,7 +3977,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -21.59 0)
+				(at 20.32 -3.81 180)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -3995,7 +3995,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -24.13 0)
+				(at 20.32 -7.62 180)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -4013,7 +4013,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -26.67 0)
+				(at 20.32 -11.43 180)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -4031,7 +4031,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -29.21 0)
+				(at 20.32 -15.24 180)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -4049,7 +4049,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -31.75 0)
+				(at 20.32 -19.05 180)
 				(length 5.08)
 				(name "13"
 					(effects
@@ -4067,7 +4067,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -34.29 0)
+				(at 20.32 -22.86 180)
 				(length 5.08)
 				(name "14"
 					(effects
@@ -4077,6 +4077,42 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -30.48 90)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 7.62 270)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5344,640 +5380,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "3350-1275-126"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "K"
-			(at 11.43 3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3350-1275-126"
-			(at 11.43 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AERO_Connectors:3350-4275-126"
-			(at 11.43 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Relay?SPST*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "3350-1275-126_0_0"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3350-1275-126_0_1"
-			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -8.255 1.905)
-				(end -1.905 -1.905)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -1.905) (xy -2.54 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy -5.08 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 0) (xy 3.81 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 3.175 3.81)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3350-1275-126_1_1"
-			(pin passive line
-				(at 7.62 7.62 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 7.62 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -7.62 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -7.62 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "3350-4275-126"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "K"
-			(at 11.43 3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3350-4275-1261"
-			(at 11.43 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AERO_Connectors:3350-4275-126"
-			(at 11.43 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally closed, EN50005"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "1P1T 1-Form-B single pole throw NC"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Relay?SPST*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "3350-4275-126_0_1"
-			(rectangle
-				(start -8.255 1.905)
-				(end -1.905 -1.905)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -1.905) (xy -2.54 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy -5.08 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 0) (xy 3.81 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 3.175 3.81)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3350-4275-126_1_1"
-			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at 2.54 7.62 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 7.62 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -7.62 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -7.62 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
