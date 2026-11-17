@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AERO_Connectors")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Connectors.pretty")(options "")(descr ""))
+  (lib (name "AERO_Diodes")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Diodes.pretty")(options "")(descr ""))
+  (lib (name "AERO_Fuses")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Fuses.pretty")(options "")(descr ""))
+  (lib (name "AERO_Inductors")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Inductors.pretty")(options "")(descr ""))
+  (lib (name "AERO_Integrated_Circuits")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Integrated_Circuits.pretty")(options "")(descr ""))
+  (lib (name "AERO_Isolation")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Isolation.pretty")(options "")(descr ""))
+  (lib (name "AERO_Oscillators")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Oscillators.pretty")(options "")(descr ""))
+  (lib (name "AERO_Regulators")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Regulators.pretty")(options "")(descr ""))
+  (lib (name "AERO_Resistors")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Resistors.pretty")(options "")(descr ""))
+  (lib (name "AERO_Transistors")(type "KiCad")(uri "${AERO_LIB}/Footprints/AERO_Transistors.pretty")(options "")(descr ""))
+)
